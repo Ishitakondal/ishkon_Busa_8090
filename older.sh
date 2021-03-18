@@ -1,3 +1,4 @@
 #!/bin/bash
-files=$(ls -l | head -4)
+files=$(ls -1 | head -1)
 echo $files
+
